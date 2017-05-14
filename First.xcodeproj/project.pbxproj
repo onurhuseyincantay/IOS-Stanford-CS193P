@@ -14,6 +14,7 @@
 		61C779A51EB0C9E3008D2140 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61C779A31EB0C9E3008D2140 /* LaunchScreen.storyboard */; };
 		61C779B01EB0C9E3008D2140 /* FirstTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C779AF1EB0C9E3008D2140 /* FirstTests.swift */; };
 		61C779BB1EB0C9E3008D2140 /* FirstUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C779BA1EB0C9E3008D2140 /* FirstUITests.swift */; };
+		61F4E9081EBB7ACB0075F9F5 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F4E9071EBB7ACB0075F9F5 /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		61C779B61EB0C9E3008D2140 /* FirstUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61C779BA1EB0C9E3008D2140 /* FirstUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUITests.swift; sourceTree = "<group>"; };
 		61C779BC1EB0C9E3008D2140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61F4E9071EBB7ACB0075F9F5 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +99,10 @@
 		61C779991EB0C9E3008D2140 /* First */ = {
 			isa = PBXGroup;
 			children = (
-				61C7799A1EB0C9E3008D2140 /* AppDelegate.swift */,
+				61F4E9071EBB7ACB0075F9F5 /* CalculatorBrain.swift */,
 				61C7799C1EB0C9E3008D2140 /* ViewController.swift */,
 				61C7799E1EB0C9E3008D2140 /* Main.storyboard */,
-				61C779A11EB0C9E3008D2140 /* Assets.xcassets */,
-				61C779A31EB0C9E3008D2140 /* LaunchScreen.storyboard */,
-				61C779A61EB0C9E3008D2140 /* Info.plist */,
+				61D34E061EB2860E004652A3 /* Supporting Files */,
 			);
 			path = First;
 			sourceTree = "<group>";
@@ -123,6 +123,17 @@
 				61C779BC1EB0C9E3008D2140 /* Info.plist */,
 			);
 			path = FirstUITests;
+			sourceTree = "<group>";
+		};
+		61D34E061EB2860E004652A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61C779A31EB0C9E3008D2140 /* LaunchScreen.storyboard */,
+				61C779A11EB0C9E3008D2140 /* Assets.xcassets */,
+				61C779A61EB0C9E3008D2140 /* Info.plist */,
+				61C7799A1EB0C9E3008D2140 /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +204,7 @@
 				TargetAttributes = {
 					61C779961EB0C9E3008D2140 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = B4F2B776R3;
 						ProvisioningStyle = Automatic;
 					};
 					61C779AA1EB0C9E3008D2140 = {
@@ -259,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61F4E9081EBB7ACB0075F9F5 /* CalculatorBrain.swift in Sources */,
 				61C7799D1EB0C9E3008D2140 /* ViewController.swift in Sources */,
 				61C7799B1EB0C9E3008D2140 /* AppDelegate.swift in Sources */,
 			);
@@ -412,6 +425,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B4F2B776R3;
 				INFOPLIST_FILE = First/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.onur.First;
@@ -424,6 +438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B4F2B776R3;
 				INFOPLIST_FILE = First/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.onur.First;
@@ -505,6 +520,7 @@
 				61C779C11EB0C9E3008D2140 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61C779C21EB0C9E3008D2140 /* Build configuration list for PBXNativeTarget "FirstTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +529,7 @@
 				61C779C41EB0C9E3008D2140 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61C779C51EB0C9E3008D2140 /* Build configuration list for PBXNativeTarget "FirstUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +538,7 @@
 				61C779C71EB0C9E3008D2140 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
